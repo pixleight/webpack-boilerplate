@@ -1,9 +1,16 @@
 {
-  "name": "webpack-static-site",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Chris Violette <chris@pixleight.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixleight/webpack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixleight/webpack-boilerplate/issues"
+  }
   "browserslist": [
     "last 2 versions",
     "android 4",

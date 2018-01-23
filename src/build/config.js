@@ -15,7 +15,7 @@ const config = {
   },
   copy: 'images/**/*',
   open: true,
-  devPort: 8181,
+  devPort: 8080,
   cacheBusting: '[name]_[hash:8]',
   publicPath: '/',
   paths: {
