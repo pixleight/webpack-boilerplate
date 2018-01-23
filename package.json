@@ -10,7 +10,7 @@
   },
   "bugs": {
     "url": "https://github.com/pixleight/webpack-boilerplate/issues"
-  }
+  },
   "browserslist": [
     "last 2 versions",
     "android 4",
