@@ -23,6 +23,12 @@ let webpackConfig = {
   module: {  // where we defined file patterns and their loaders
     rules: [
       {
+        enforce: 'pre',
+        test: /\.(js|s?[ca]ss)$/,
+        include: config.paths.assets,
+        loader: 'import-glob',
+      },
+      {
         test: /\.js$/,
         use: [
           { loader: 'cache-loader' },
