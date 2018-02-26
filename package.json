@@ -12,14 +12,16 @@
     "url": "https://github.com/pixleight/webpack-boilerplate/issues"
   },
   "browserslist": [
+    "IE 9",
+    "IE 10",
     "last 2 versions",
     "android 4",
-    "opera 12",
+    "opera 12"
   ],
   "scripts": {
     "build": "webpack --progress --config src/build/webpack.config.js",
     "build:production": "webpack --progress -p --config src/build/webpack.config.js",
-    "serve": "webpack-dev-server --config src/build/webpack.config.js",
+    "serve": "webpack-dev-server --config src/build/webpack.config.js"
   },
   "dependencies": {},
   "devDependencies": {
